@@ -1,0 +1,20 @@
+cat > /Users/gurupreetdhande/frontend/environment.yml <<'YML'
+name: umenv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=1.25
+  - pandas
+  - scikit-learn
+  - plotly
+  - pypdf
+  - xgboost
+  - joblib
+  - shap
+  - pip:
+      - streamlit
+      - streamlit-option-menu
+      - pydantic
+YML

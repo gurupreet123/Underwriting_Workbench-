@@ -1,0 +1,13 @@
+streamlit
+streamlit-option-menu
+pandas
+numpy<2.0
+scikit-learn
+plotly
+pypdf
+pydantic
+joblib
+xgboost
+shap
+scipy
+scikit-learn
